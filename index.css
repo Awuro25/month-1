@@ -1,0 +1,40 @@
+:root{
+    --p-color:rgb(9, 9, 12);
+    --bg-color: rgb(226, 222, 222);
+}
+
+p{
+    color: var(--p-color);
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--p-color);
+    gap: 15px;
+}
+
+.grid-cell, .flex-item{
+    height: 200px; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.flex-container{
+    display: flex;
+    gap: 15px;
+}
+
+
+.flex-item{
+    flex: 1;
+}
+
+
+@media (min-width: 635px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
