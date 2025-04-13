@@ -8,61 +8,83 @@
   <body>
     <div class="container wrapper">
       <div class="header">
-        <div class="logo"><img src="./assets/Logo.png" alt="" /></div>
-        <div class="header"><h1>For Individuals</h1></div>
-        <div>
-          <p>
-            Inspiring wholesome harmony for the mind, body and spirit, for
-            everyone, everywhere.
-          </p>
+        <div class="header-inner">
+          <div class="logo"><img src="./assets/Logo.png" alt="" /></div>
+          <div class="header"><h1>For Individuals</h1></div>
+          <div class="tagline">
+            <p class="mobile-text">
+              Inspiring wholesome harmony for the mind, body and spirit, for
+              everyone, everywhere.
+            </p>
+            <p class="desktop-text">
+              Start benefiting from the wellness experience. For companies
+              looking on increasing productivity, and improving organization
+              wellness.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="main">
-        <div class="input-card">
-          <label for="first-name">First Name</label>
-          <input type="text" />
+      <div class="main-ft-wrapper">
+        <div class="main-ft-inner">
+          <div class="main">
+            <div class="card-holder">
+              <div class="input-card">
+                <label for="first-name">First Name</label>
+                <input type="text" />
+              </div>
+              <div class="input-card">
+                <label for="last-name">Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="card-holder">
+              <div class="input-card">
+                <label for="gender">Gender</label>
+                <select name="" id="">
+                  <option value="">select here</option>
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                </select>
+              </div>
+              <div class="input-card">
+                <label for="dob">Date of Birth</label>
+                <input type="date" placeholder="Select here" />
+              </div>
+            </div>
+            <div class="card-holder">
+              <div class="input-card">
+                <label for="weight">Weight(KG)</label>
+                <input type="text" placeholder="Enter weight" />
+              </div>
+              <div class="input-card">
+                <label for="height">Height(CM)</label>
+                <input type="text" placeholder="Enter Height" />
+              </div>
+            </div>
+            <div class="input-card">
+              <label for="activity-level">Activity Level</label>
+              <select name="" id="">
+                <option value="">select here</option>
+                <option value="">Active</option>
+                <option value="">Away</option>
+              </select>
+            </div>
+            <div class="input-card">
+              <label for="password">Password</label>
+              <input type="password" placeholder="Enter password" />
+            </div>
+            <div class="input-card">
+              <button type="submit">Register</button>
+            </div>
+          </div>
+          <div class="footer">
+            <p>
+              By clicking Register, you agree to our Terms of
+              <span>Use</span> and
+              <span>Privacy Policy</span>
+            </p>
+          </div>
         </div>
-        <div class="input-card">
-          <label for="last-name">Last Name</label>
-          <input type="text" />
-        </div>
-        <div class="input-card">
-          <label for="gender">Gender</label>
-          <select name="" id="">
-            <option value="">select here</option>
-            <option value="">Male</option>
-            <option value="">Female</option>
-          </select>
-        </div>
-        <div class="input-card">
-          <label for="dob">Date of Birth</label>
-          <input type="date" placeholder="Select here" />
-        </div>
-        <div class="input-card">
-          <label for="weight">Weight(KG)</label>
-          <input type="text" placeholder="Enter weight" />
-        </div>
-        <div class="input-card">
-          <label for="height">Height(CM)</label>
-          <input type="text" placeholder="Enter Height" />
-        </div>
-        <div class="input-card">
-          <label for="activity-level">Activity Level</label>
-          <input type="text" />
-        </div>
-        <div class="input-card">
-          <label for="password">Password</label>
-          <input type="password" placeholder="Enter password" />
-        </div>
-        <div class="input-card">
-          <input type="button" value="Register" />
-        </div>
-      </div>
-      <div class="footer">
-        <p>
-          By clicking Register, you agree to our Terms of Use and our Privacy
-          Policy
-        </p>
       </div>
     </div>
   </body>

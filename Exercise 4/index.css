@@ -7,12 +7,117 @@ body{
 
 .container{
     background-color: #F7FDFC;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     width: 375px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
+}
+.mobile-text{
+    display: block;
+    color: #737373;
 }
 
+.desktop-text{
+    display: none;
+}
+
+.main{
+    background-color: #FFFFFF;
+}
+
+img{
+    margin-left: -10px;
+}
+label{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.input, label{
+    display: block;
+}
+
+input{
+    border: none;  
+}
+
+select, input{
+    margin: 10px 0;
+    
+}
+.input-card{
+    margin: 10px 0;
+}
+
+button{
+    border: none;
+    background-color: #2EC4B6;
+    padding: 10px 120;
+    border-radius: 5px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+
+span{
+    color: #2EC4B6;
+}
+
+@media (min-width: 1024px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+}
+
+.mobile-text{
+    display: none;
+}
+
+.desktop-text{
+    display: block;
+    color: #737373;
+}
+
+.card-holder{
+    display: flex;
+}
+
+.main-ft-wrapper, .header{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.header-inner{
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+   
+}
+
+.header-inner div{
+    padding: 10px 0;
+}
+
+.main-ft-inner{
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-holder div{
+    width: 50%;
+}
+
+button {
+    width: 90%;
+}
+  
+.footer{
+    width: 100%;
+}
+}
